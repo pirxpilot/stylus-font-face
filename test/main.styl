@@ -1,0 +1,52 @@
+@import('..')
+
+font-face("balls")
+font-face-inline("parts")
+
+[class^="part-"],
+[class*=" part-"],
+[class^="ball-"],
+[class*=" ball-"]
+  speak none
+  font-style normal
+  font-weight normal
+  font-variant normal
+  text-transform none
+  line-height 1
+  -webkit-font-smoothing antialiased
+  -moz-osx-font-smoothing grayscale
+
+[class^="part-"],
+[class*=" part-"]
+  font-family: 'parts'
+
+.part-cd:before
+  content "\e600"
+.part-mouse:before
+  content "\e601"
+.part-floppy:before
+  content "\e602"
+
+[class^="ball-"],
+[class*=" ball-"]
+  font-family: 'balls'
+
+.ball-basketball:before
+  content "\e600"
+.ball-football:before
+  content "\e601"
+.ball-americanfootball:before
+  content "\e602"
+
+
+body
+  font-size 400%
+  padding 1em
+
+  div
+    padding 1em
+
+  .balls
+    color green
+  .parts
+    color blue
