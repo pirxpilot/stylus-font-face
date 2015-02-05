@@ -2,6 +2,7 @@
 
 font-face("balls")
 font-face-inline("parts")
+font-face-inline("fontawesome-webfont")
 
 [class^="part-"],
 [class*=" part-"],
@@ -37,6 +38,17 @@ font-face-inline("parts")
   content "\e601"
 .ball-americanfootball:before
   content "\e602"
+
+[class^="fa-"],
+[class*=" fa-"]
+  font-family: 'fontawesome-webfont'
+
+.fa-glass:before
+  content "\f000"
+.fa-music:before
+  content "\f001"
+.fa-search:before
+  content "\f002"
 
 
 body
