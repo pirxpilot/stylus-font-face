@@ -18,6 +18,6 @@
   "license": "MIT",
   "readmeFilename": "Readme.md",
   "dependencies": {
-    "stylus": "> 0.38"
+    "stylus": "> 0.47"
   }
 }
