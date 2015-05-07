@@ -17,7 +17,7 @@ See [Nib] usage and installation.
 First you have to tell stylus about the plugin:
 
 ```js
-var fontFace = require('stylus-font-fave');
+var fontFace = require('stylus-font-face');
 stylus.use(fontFace());
 ```
 
