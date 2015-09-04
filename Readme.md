@@ -42,6 +42,8 @@ Both `font-face` and `font-face-inline` take the same parameters:
 - `file` - base name of the file - optional defaults to `family`
 - `path` - defaults to `fonts` - assumes that font files are located in `fonts` directory relative to
   your `.styl` file
+- `weight` - font weight - defaults to `normal`
+- `style` - font style - defaults to `normal`
 
 ## Generated CSS
 
