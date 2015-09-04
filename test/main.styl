@@ -3,6 +3,11 @@
 font-face("balls")
 font-face-inline("parts")
 font-face-inline("fontawesome-webfont")
+font-face-inline("Roboto", "Roboto-Thin", "fonts/Roboto", 100)
+font-face-inline("Roboto", "Roboto-Light", "fonts/Roboto", 300)
+font-face-inline("Roboto", "Roboto-Regular", "font/sRoboto", 400)
+font-face-inline("Roboto", "Roboto-Medium", "fonts/Roboto", 500)
+font-face-inline("Roboto", "Roboto-Bold", "fonts/Roboto", 700)
 
 [class^="part-"],
 [class*=" part-"],
@@ -62,3 +67,15 @@ body
     color green
   .parts
     color blue
+  .roboto
+    font-family 'Roboto'
+    .roboto-thin
+      font-weight 100
+    .roboto-light
+      font-weight 300
+    .roboto-regular
+      font-weight 400
+    .roboto-medium
+      font-weight 500
+    .roboto-bold
+      font-weight 700
