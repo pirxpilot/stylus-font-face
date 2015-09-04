@@ -1,4 +1,9 @@
 
+1.1.0 / 2015-09-04
+==================
+
+ * Adds support for multiple font weights and styles.
+
 1.0.1 / 2015-05-07
 ==================
 
