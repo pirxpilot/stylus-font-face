@@ -1,5 +1,5 @@
 [![NPM version](https://img.shields.io/npm/v/stylus-font-face.svg)](http://badge.fury.io/js/stylus-font-face)
-[![Dependency Status](https://img.shields.io/gemnasium/code42day/stylus-font-face.svg)](https://gemnasium.com/code42day/stylus-font-face)
+[![Dependency Status](https://img.shields.io/gemnasium/pirxpilot/stylus-font-face.svg)](https://gemnasium.com/pirxpilot/stylus-font-face)
 
 # stylus-font-face
 

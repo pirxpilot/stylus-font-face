@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "code42day/stylus-font-face"
+    "url": "pirxpilot/stylus-font-face"
   },
   "keywords": [
     "stylus",
     "font-face"
   ],
-  "author": "Damian Krzeminski <pirxpilot@code42day.com>",
+  "author": "Damian Krzeminski <pirxpilot@furkot.com>",
   "license": "MIT",
   "readmeFilename": "Readme.md",
   "dependencies": {
