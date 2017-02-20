@@ -1,6 +1,6 @@
 {
   "name": "stylus-font-face",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "@font-face generator plugin for stylus",
   "main": "lib/plugin.js",
   "scripts": {
