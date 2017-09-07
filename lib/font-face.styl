@@ -1,7 +1,7 @@
 file(name, ext, path)
   path + '/' + name + '.' + ext
 
-font-face(family, font=family, path='fonts', weight='normal', style='normal')
+font-face(family, font=family, path='fonts', weight='normal', style='normal', display='auto')
   @font-face
     font-family family
     src url(file(font, 'eot', path))
@@ -11,6 +11,7 @@ font-face(family, font=family, path='fonts', weight='normal', style='normal')
       url(file(font, 'svg#' + family, path)) format("svg")
     font-weight weight
     font-style style
+    font-display display
 
 font-face-inline(family, font=family, path='fonts', weight=400, style='normal')
   @font-face
