@@ -13,14 +13,14 @@ font-face(family, font=family, path='fonts', weight='normal', style='normal', di
     font-style style
     font-display display
 
-font-face-inline(family, font=family, path='fonts', weight=400, style='normal')
+font-face-inline(family, font=family, path='fonts', weight=400, style='normal', cdnPath=path)
   @font-face
     font-family family
-    src url(file(font, 'eot?', path)) format("embedded-opentype")
+    src url(file(font, 'eot?', cdnPath)) format("embedded-opentype")
   @font-face
     font-family family
     src data-url(file(font, 'woff', path)) format("woff"),
       data-url(file(font, 'ttf', path)) format("truetype"),
-      url(file(font, 'svg#' + family, path)) format("svg")
+      url(file(font, 'svg#' + family, cdnPath)) format("svg")
     font-weight weight
     font-style style
